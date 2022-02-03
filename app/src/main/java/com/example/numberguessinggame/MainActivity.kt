@@ -38,7 +38,7 @@ class MainActivity : AppCompatActivity() {
 
                     if (number < random) {
 
-                        hint.text = "Your number is too low ,"
+                        hint.text = "Your number is too low"
                         editText.text.clear()
 
                     } else if (number > random) {
