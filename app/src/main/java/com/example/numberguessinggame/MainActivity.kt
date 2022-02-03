@@ -14,7 +14,7 @@ class MainActivity : AppCompatActivity() {
     lateinit var hint: TextView
     lateinit var button: Button
 
-    var random: Int = nextInt(1,10)
+    var random: Int = nextInt(1,1000)
     var click: Int = 0
     var start: Int = 0
 
@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
     }
 
     fun reset() {
-        random = nextInt(1,10)
+        random = nextInt(1,1000)
         textview.text = "Try to guess the number i'm thinking of from 1-1000!"
         editText.text.clear()
         button.text = "Enter"
